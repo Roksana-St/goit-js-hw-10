@@ -1,3 +1,28 @@
+.input {
+  margin-right: 8px;
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  background-color: #fff;
+  border-color: #808080;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: #cfcfcf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #989898;
+  font-family: "Montserrat", sans-serif;
+}
+
 .timer {
   display: flex;
   justify-content: center;
@@ -6,10 +31,29 @@
 }
 
 .field {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0px;
+  width: 82px;
+  height: 72px;
 }
 
 .value {
-  font-size: 2rem;
-  display: block;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-family: "Montserrat", sans-serif;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
