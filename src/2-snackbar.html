@@ -12,30 +12,32 @@
 </head>
 
 <body>
-  <a href="./index.html">HOME</a>
+  <a class="home" href="./index.html">HOME</a>
+
+
   <form class="form">
-    <label>
+    <label class="lab">
       Delay (ms)
       <input type="number" name="delay" required />
     </label>
 
-    <fieldset>
+    <fieldset class="field">
       <legend>State</legend>
-      <label>
+      <label class="radio">
         <input type="radio" name="state" value="fulfilled" required />
         Fulfilled
       </label>
-      <label>
+      <label class="rad">
         <input type="radio" name="state" value="rejected" required />
         Rejected
       </label>
     </fieldset>
 
-    <button type="submit">Create notification</button>
+    <button class="btn-sn" type="submit">Create notification</button>
   </form>
 
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script> -->
-  <script src="./js/2-snackbar.js"></script>
+  <script type="module" src="./js/2-snackbar.js"></script>
 </body>
 
 </html>
