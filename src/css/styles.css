@@ -90,9 +90,9 @@ input[name="delay"] {
   height: 40px;
 }
 
-.field {
-  width: 360px;
-  height: 78px;
+.fields {
+  width: 362px;
+  height: 66px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -108,7 +108,21 @@ input[name="delay"] {
   justify-content: flex-start;
   flex-direction: row;
   gap: 48px;
+}
 
+.fields:hover,
+.fields:focus {
+  border-color: #000;
+}
+
+legend {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 24px;
 }
 
 .btn-sn {
@@ -128,17 +142,16 @@ input[name="delay"] {
   cursor: pointer;
 }
 
-input[name="state"] {
-  /* margin-right: 48px; */
+.btn-sn:hover,
+.btn-sn:focus {
+  background-color: #6c8cff;
 }
 
 .radio {
-  margin-right: 48px;
   margin-left: 48px;
   margin-bottom: 8px;
 }
 
 .rad {
-  /* margin-right: 48px; */
   margin-bottom: 8px;
 }
